@@ -5,6 +5,6 @@
             });
             
 # Loop
-    $.each(value.value, function (index, value) {
-        attrValues += '<option value="' + attrIds + ',' + value + '">' + value + '</option>';
+    $.each(items.value, function (index, item) {
+        output += '<option value="'+ item.id +'">'+ item.name +'</option>';
     });
