@@ -31,3 +31,7 @@ Use this code in .htaccess file
      deny from all
      satisfy all
     </Files>
+    
+# Directory Permission
+    sudo chgrp -R www-data storage bootstrap/cache public/uploads
+    sudo chmod -R ug+rwx storage bootstrap/cache public/uploads
