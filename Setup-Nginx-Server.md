@@ -295,5 +295,12 @@ git remote add origin githubrepurl
 git remote -v
 ```
 
+### Register Website Config File
+```bash
+sudo ln -s /etc/nginx/sites-available/bluebird-api-live /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+sudo certbot --nginx
+```
 
 Copyright 2022 [md abdul karim](https://github.com/karim-007).
