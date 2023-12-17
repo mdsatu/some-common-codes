@@ -303,4 +303,4 @@ sudo systemctl reload nginx
 sudo certbot --nginx
 ```
 
-Copyright 2022 [md abdul karim](https://github.com/karim-007).
+Copyright 2024 [MD Satu](https://mdsatu.github.io).
