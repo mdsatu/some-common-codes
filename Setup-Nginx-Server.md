@@ -113,7 +113,7 @@ SET foreign_key_checks = 1; #after import enable forign key
 
 ### nginx config edit
 ```bash
-  sudo nano nano /etc/nginx/sites-available/default
+  sudo nano /etc/nginx/sites-available/default
 
     # Add index.php to the list if you are using PHP
     index index.php index.html index.htm index.nginx-debian.html;
