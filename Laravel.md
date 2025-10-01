@@ -22,7 +22,11 @@
     
 # Foreign Key
     $table->foreign('attendance_id')->references('id')->on('attendances');
-          
+    
+# Easily Remove Public Folder
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+
 # Hide .env file
 Use this code in .htaccess file
 
